@@ -86,7 +86,7 @@
 	/* Zoom out animation */
 	.facebook-anim:hover {
 		animation: zoom-out;
-		animation-duration: 2s;
+		animation-duration: 1s;
 	}
 
 	@keyframes zoom-out {
@@ -94,9 +94,11 @@
 			transform: scale(1)
 		}
 		100% {
-			transform: scale(1.5)
+			transform: scale(1.25)
+			translateY(5px)
 		}
 	}
+
     .word-wrap {
 		word-wrap: break-word;
 		-ms-word-break: break-all;
