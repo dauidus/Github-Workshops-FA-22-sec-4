@@ -83,19 +83,18 @@
 	       -o-transition:all .5s ease;
 	          transition:all .5s ease;
     }
-	/* Zoom out animation */
+	/* Pop-Up Icon animation */
 	.facebook-anim:hover {
-		animation: zoom-out;
+		animation: popup-out;
 		animation-duration: 1s;
 	}
 
-	@keyframes zoom-out {
+	@keyframes popup-out {
 		0%{
-			transform: scale(1)
+			transform: translateY(0px);
 		}
 		100% {
-			transform: scale(1.25)
-			translateY(5px)
+			transform: translateY(-10px);
 		}
 	}
 
