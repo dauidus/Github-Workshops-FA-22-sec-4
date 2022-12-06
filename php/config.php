@@ -3,7 +3,7 @@
 	
 	define('TO_NAME','Dave Winter');
 	define('TO_EMAIL','dave.winter@csulb.edu');
-	define('SUBJECT','message from your resume website');	
+	define('SUBJECT','this is a message from your resume website');	
 	
 	define('TEMPLATE_PATH','template/default.php');
  
